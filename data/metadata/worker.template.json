@@ -1,0 +1,30 @@
+{
+  "kind": "worker",
+  "metadata": {
+    "title": "국세청_근로소득 백분위(천분위) 자료_20251231",
+    "sourceUrl": "https://www.data.go.kr/data/15082063/fileData.do",
+    "taxYear": 2024,
+    "filingYear": 2025,
+    "publishedAt": "2026-02-24",
+    "checkedAt": "2026-10-17",
+    "population": "해당 국세청 자료에 집계된 근로소득자",
+    "incomeDefinition": "연간 세전 총급여 (비과세 소득 제외)",
+    "license": "이용허락범위 제한 없음 (공공데이터포털 메타데이터)",
+    "notes": [
+      "연중 입사·퇴사한 근로자 등이 포함될 수 있어 12개월 근무 정규직만의 비교가 아닙니다.",
+      "상위 1% 이내는 0.1%, 그 외는 1% 구간이며, 구간 평균은 실제 진입 경계가 아닙니다."
+    ]
+  },
+  "sourceReviewed": false,
+  "populationReviewed": false,
+  "sourceUnit": "EOK_KRW",
+  "expectedTotalPeople": null,
+  "columns": {
+    "people": "인원",
+    "rank": "구분",
+    "salary": "총급여"
+  },
+  "expectedTotalSalaryInSourceUnit": null,
+  "sumToleranceInSourceUnit": 0,
+  "rankFormat": "cumulative-endpoint"
+}

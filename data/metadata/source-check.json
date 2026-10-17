@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-10-17",
+  "worker": {
+    "sourceUrl": "https://www.data.go.kr/data/15082063/fileData.do",
+    "catalogUrl": "https://www.data.go.kr/catalog/15082063/fileData.json",
+    "verification": "Official page metadata read; original file not retrieved",
+    "taxYear": 2024,
+    "filingYear": 2025,
+    "publishedAt": "2026-02-24",
+    "modifiedAt": "2026-05-08",
+    "expectedRows": 109,
+    "columns": {
+      "구분": "rank bin",
+      "인원": "명",
+      "총급여": "억원",
+      "근로소득금액": "억원",
+      "소득공제금액": "억원",
+      "과세표준": "억원",
+      "결정세액": "억원"
+    },
+    "license": "이용허락범위 제한 없음",
+    "blocker": "Environment proxy rejected data.go.kr download; web reader cannot retrieve CSV download endpoint. No raw values copied from third-party calculators."
+  },
+  "business": {
+    "sourceUrl": "https://tasis.nts.go.kr/",
+    "candidateTable": "3-2-5 소득금액 규모별·업태별 사업소득 신고 현황",
+    "verification": "Dynamic portal returned no table content. Year, counts, population notes and duplicate-person rules remain unverified.",
+    "rejectedSubstitutes": [
+      "3-2-6 수입금액 분포",
+      "3-3-3 종합소득금액 10분위",
+      "3-3-4 종합소득세 분위별 신고 현황"
+    ]
+  }
+}

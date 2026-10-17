@@ -1,0 +1,20 @@
+{
+  "kind": "business",
+  "status": "unavailable",
+  "reason": "사업소득금액 구간별 원자료와 신고인원 중복 여부를 검증하지 못했습니다. 매출·종합소득 통계로 대신 계산하지 않습니다.",
+  "metadata": {
+    "title": "국세통계 3-2-5. 소득금액 규모별·업태별 사업소득 신고 현황 (검토 대상)",
+    "sourceUrl": "https://tasis.nts.go.kr/",
+    "taxYear": null,
+    "filingYear": null,
+    "publishedAt": null,
+    "checkedAt": "2026-10-17",
+    "population": "사업소득 신고자 범위 및 중복 여부 확인 중",
+    "incomeDefinition": "연간 사업소득금액 (총수입금액에서 필요경비 등을 차감)",
+    "license": "원자료 확보 후 확인 필요",
+    "notes": [
+      "프리랜서 포함 범위와 근로소득 병행자의 포함 여부는 표의 주석 확인이 필요합니다.",
+      "매출액·법인 순이익·종합소득금액은 사업소득금액과 다릅니다."
+    ]
+  }
+}
